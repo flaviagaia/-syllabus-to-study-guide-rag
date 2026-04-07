@@ -89,6 +89,12 @@ Campos principais:
 - `source_count`
 - `limitation_note`
 
+Essa estrutura é boa para produto porque o guia pode ser renderizado diretamente em:
+- página de curso;
+- onboarding do aluno;
+- painel de revisão;
+- experiência de estudo contextual.
+
 ### Resultado atual
 - `dataset_source = syllabus_study_guide_local_sample`
 - `document_count = 8`
@@ -120,6 +126,14 @@ No nível avançado, ele permite discutir:
 - usa RAG de forma controlada e testável;
 - deixa clara a ponte entre ciência de dados, backend e experiência de produto.
 
+### Arquitetura alvo em produção
+Uma evolução natural seria:
+- ingestão automática de syllabus e conteúdo do LMS;
+- versionamento por curso e semestre;
+- retrieval híbrido por tópico;
+- geração estruturada com template persistente;
+- exposição via API para front-end educacional.
+
 ## EN
 
 ### Quick overview
@@ -143,6 +157,8 @@ Main fields:
 - `study_checklist`
 - `source_count`
 - `limitation_note`
+
+This makes the output immediately usable by product surfaces such as onboarding pages, course dashboards, or contextual study panels.
 
 ### Current result
 - `dataset_source = syllabus_study_guide_local_sample`
