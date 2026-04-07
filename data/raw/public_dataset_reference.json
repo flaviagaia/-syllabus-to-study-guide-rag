@@ -1,0 +1,5 @@
+{
+  "dataset_name": "Syllabus and course-material style corpus",
+  "dataset_reference": "Local education corpus for study-guide generation workflows.",
+  "dataset_note": "This project uses a deterministic local syllabus corpus to demonstrate grounded study-guide generation without depending on external document stores or online APIs."
+}
