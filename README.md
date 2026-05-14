@@ -32,15 +32,15 @@ flowchart LR
 ```
 
 ### Estrutura do repositório
-- [src/sample_data.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/-syllabus-to-study-guide-rag/src/sample_data.py)
+- [src/sample_data.py](src/sample_data.py)
   Gera o corpus educacional local.
-- [src/retrieval.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/-syllabus-to-study-guide-rag/src/retrieval.py)
+- [src/retrieval.py](src/retrieval.py)
   Recupera evidências por tópico usando `TF-IDF + cosine similarity`.
-- [src/generation.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/-syllabus-to-study-guide-rag/src/generation.py)
+- [src/generation.py](src/generation.py)
   Monta o guia de estudos com seções e checklist.
-- [src/pipeline.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/-syllabus-to-study-guide-rag/src/pipeline.py)
+- [src/pipeline.py](src/pipeline.py)
   Orquestra o run ponta a ponta.
-- [tests/test_project.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/-syllabus-to-study-guide-rag/tests/test_project.py)
+- [tests/test_project.py](tests/test_project.py)
   Valida o contrato do projeto.
 
 ### Corpus educacional
@@ -80,7 +80,7 @@ Essa abordagem é boa para:
 
 #### 3. Saída estruturada
 O pipeline gera:
-- [study_guide_report.json](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/-syllabus-to-study-guide-rag/data/processed/study_guide_report.json)
+- [study_guide_report.json](data/processed/study_guide_report.json)
 
 Campos principais:
 - `title`
@@ -120,11 +120,6 @@ No nível avançado, ele permite discutir:
 - integração com UX de estudo;
 - evolução para embeddings, reranking e agentes.
 
-### Como defender este projeto em entrevista
-- ele mostra um caso real de EdTech, não só chatbot genérico;
-- transforma documentos dispersos em uma experiência útil ao estudante;
-- usa RAG de forma controlada e testável;
-- deixa clara a ponte entre ciência de dados, backend e experiência de produto.
 
 ### Arquitetura alvo em produção
 Uma evolução natural seria:
@@ -149,7 +144,7 @@ This project uses **RAG to convert syllabus materials into a structured study gu
 
 ### Output contract
 The project exports:
-- [study_guide_report.json](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/-syllabus-to-study-guide-rag/data/processed/study_guide_report.json)
+- [study_guide_report.json](data/processed/study_guide_report.json)
 
 Main fields:
 - `title`
